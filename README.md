@@ -25,16 +25,16 @@ How to Provision the 'Automatic for the People' Stack (Windows)
 ---------------------------------------------------------------
 1. Download this repo
 2. Open a DOS Box and navigate to the folder where code was downloaded
-3. Run the provisioner script:
+3. Run the provisioner script:  
 
-	Usage:
-		python envmain.py --stack-name <name> --ssh-key-pair <ssh keypair>
-
-	Where:
-		<name> is the name you give to the stack that will be created.
-		<ssh keypair> is the name of the .pem file used for authorization.
-
-	Example:
-		python envmain.py --stack-name a4tpstack --ssh-key-pair myec2keypair
+    Usage:  
+    python envmain.py --stack-name *name* --ssh-key-pair *sshkeypair*  
+  
+    Where:  
+    *name* is the name you give to the stack that will be created.  
+    *sshkeypair* is the name of the .pem file used for authorization.  
+  
+    Example:  
+    python envmain.py --stack-name a4tpstack --ssh-key-pair myec2keypair  
 		
 		
